@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-//以下お試し
+//以下お試し、新規のDBを作成する（失敗）
 //参考
 //https://learn.microsoft.com/ja-jp/ef/ef6/modeling/code-first/workflows/new-database#3-create-a-context
 //https://pgmemo.tokyo/data/archives/1266.html
