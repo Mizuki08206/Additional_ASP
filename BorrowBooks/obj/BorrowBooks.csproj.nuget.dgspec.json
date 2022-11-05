@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m-otomo\\source\\repos\\BorrowBooks\\BorrowBooks\\BorrowBooks.csproj": {}
+    "C:\\Users\\mizuk\\Source\\Repos\\Additional_ASP\\BorrowBooks\\BorrowBooks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m-otomo\\source\\repos\\BorrowBooks\\BorrowBooks\\BorrowBooks.csproj": {
+    "C:\\Users\\mizuk\\Source\\Repos\\Additional_ASP\\BorrowBooks\\BorrowBooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m-otomo\\source\\repos\\BorrowBooks\\BorrowBooks\\BorrowBooks.csproj",
+        "projectUniqueName": "C:\\Users\\mizuk\\Source\\Repos\\Additional_ASP\\BorrowBooks\\BorrowBooks.csproj",
         "projectName": "BorrowBooks",
-        "projectPath": "C:\\Users\\m-otomo\\source\\repos\\BorrowBooks\\BorrowBooks\\BorrowBooks.csproj",
-        "packagesPath": "C:\\Users\\m-otomo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m-otomo\\source\\repos\\BorrowBooks\\BorrowBooks\\obj\\",
+        "projectPath": "C:\\Users\\mizuk\\Source\\Repos\\Additional_ASP\\BorrowBooks\\BorrowBooks.csproj",
+        "packagesPath": "C:\\Users\\mizuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mizuk\\Source\\Repos\\Additional_ASP\\BorrowBooks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\m-otomo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mizuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,13 +39,36 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
