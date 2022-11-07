@@ -8,6 +8,5 @@
         public string Genre { get; set; }
         public int? Lend_User_ID { get; set; }
         public DateTime? Lend_Date { get; set; }
-        public int Lib_ID { get; set; }
     }
 }

@@ -7,6 +7,5 @@
         public string Mail_Address { get; set; }
         public string Password { get; set; }
         public string Phone { get; set; }
-        public int Lib_ID { get; set; }
     }
 }

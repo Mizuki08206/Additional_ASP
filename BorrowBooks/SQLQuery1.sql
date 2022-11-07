@@ -1,4 +1,4 @@
-﻿create table dbo.users(
+﻿create table users(
 user_id int identity(1,1) primary key,
 user_name varchar(100) not null,
 mail_address varchar(100) not null,
